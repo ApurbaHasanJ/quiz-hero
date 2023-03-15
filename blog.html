@@ -51,14 +51,29 @@
     </header>
 
     <!-- Questions Section -->
-    <section class="mt-8 flex justify-between items-center w-9/12 mx-auto">
+    <section class="mt-8 flex flex-col justify-between items-center gap-16 w-9/12 mx-auto">
+
+        <!-- differences between map, forEach, filter and find -->
         <div>
-            <h1 class="text-3xl font-bold text-gray-900">What are the differences between map, forEach, filter and find?</h1>
+            <h1 class="text-3xl font-bold text-gray-900">1. What are the differences between map, forEach, filter and find?</h1>
             <div>
                 <h5 class="text-xl font-semibold mt-6 text-gray-500"># .map() executes the same code on every element in an array and returns a new array with the updated elements.</h5>
                 <h5 class="text-xl font-semibold mt-6 text-gray-500"># .forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined.</h5>
                 <h5 class="text-xl font-semibold mt-6 text-gray-500"># .filter() checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.</h5>
                 <h5 class="text-xl font-semibold mt-6 text-gray-500"># .find() method returns the value of the first element that passes a test and it returns undefined if no elements are found.</h5>
+            </div>
+        </div>
+
+
+        <!-- differences between Local storage and session storage and cookies -->
+        <div>
+            <h1 class="text-3xl font-bold text-gray-900">2. What are the differences between Local storage and Session storage and Cookies?</h1>
+            <div>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500">#Local Storage: Local storage stores a larger amount of data on the client's computer in a key-value pair format and has no expiration date. Data is never transferred to the server and is accessible via JavaScript and HTML5. (Capacity: 10MB, Storage location: Browser only)</h5>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500">#Session storage: Session storage stores a larger amount of data on the client's computer only for the current session, expiring the data on tab close. Data is never transferred to the server and is accessible client-side from the same tab. (Capacity: 5MB, Storage location: Browser only)</h5>
+
+                <h5 class="text-xl font-semibold mt-6 text-gray-500">#Cookies: Cookies store small amounts of data that has to be sent back to the server with subsequent requests and their expiration can be set from either server or client. They are primarily used for server-side reading. (Capacity: 4KB, Storage location: Browser and server)</h5>
+                
             </div>
         </div>
     </section>
