@@ -57,10 +57,10 @@
         <div>
             <h1 class="text-3xl font-bold text-gray-900">1. What are the differences between map, forEach, filter and find?</h1>
             <div>
-                <h5 class="text-xl font-semibold mt-6 text-gray-500"># .map() executes the same code on every element in an array and returns a new array with the updated elements.</h5>
-                <h5 class="text-xl font-semibold mt-6 text-gray-500"># .forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined.</h5>
-                <h5 class="text-xl font-semibold mt-6 text-gray-500"># .filter() checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.</h5>
-                <h5 class="text-xl font-semibold mt-6 text-gray-500"># .find() method returns the value of the first element that passes a test and it returns undefined if no elements are found.</h5>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500"><span class="font-bold text-gray-800">#map:</span> .map() executes the same code on every element in an array and returns a new array with the updated elements.</h5>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500"><span class="font-bold text-gray-800">#forEach:</span> .forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined.</h5>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500"><span class="font-bold text-gray-800">#filter:</span> .filter() checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria.</h5>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500"><span class="font-bold text-gray-800">#find:</span> .find() method returns the value of the first element that passes a test and it returns undefined if no elements are found.</h5>
             </div>
         </div>
 
@@ -69,21 +69,32 @@
         <div>
             <h1 class="text-3xl font-bold text-gray-900">2. What are the differences between Local storage and Session storage and Cookies?</h1>
             <div>
-                <h5 class="text-xl font-semibold mt-6 text-gray-500">#Local Storage: Local storage stores a larger amount of data on the client's computer in a key-value pair format and has no expiration date. Data is never transferred to the server and is accessible via JavaScript and HTML5. (Capacity: 10MB, Storage location: Browser only)</h5>
-                <h5 class="text-xl font-semibold mt-6 text-gray-500">#Session storage: Session storage stores a larger amount of data on the client's computer only for the current session, expiring the data on tab close. Data is never transferred to the server and is accessible client-side from the same tab. (Capacity: 5MB, Storage location: Browser only)</h5>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500"><span class="font-bold text-gray-800">#Local Storage:</span> Local storage stores a larger amount of data on the client's computer in a key-value pair format and has no expiration date. Data is never transferred to the server and is accessible via JavaScript and HTML5. (Capacity: 10MB, Storage location: Browser only)</h5>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500"><span class="font-bold text-gray-800">#Session storage:</span> Session storage stores a larger amount of data on the client's computer only for the current session, expiring the data on tab close. Data is never transferred to the server and is accessible client-side from the same tab. (Capacity: 5MB, Storage location: Browser only)</h5>
 
-                <h5 class="text-xl font-semibold mt-6 text-gray-500">#Cookies: Cookies store small amounts of data that has to be sent back to the server with subsequent requests and their expiration can be set from either server or client. They are primarily used for server-side reading. (Capacity: 4KB, Storage location: Browser and server)</h5>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500"><span class="font-bold text-gray-800">#Cookies:</span> Cookies store small amounts of data that has to be sent back to the server with subsequent requests and their expiration can be set from either server or client. They are primarily used for server-side reading. (Capacity: 4KB, Storage location: Browser and server)</h5>
                 
             </div>
         </div>
 
 
+        <!-- event loop Ques. -->
         <div>
             <h1 class="text-3xl font-bold text-gray-900">3. What is the event loop in JavaScript and how it works?</h1>
             <div>
-                <h5 class="text-xl font-semibold mt-6 text-gray-500">#Event loop: The event loop is a mechanism that allows asynchronous and non-blocking code execution. It is the core concept that makes JavaScript a highly performant language for building web applications. It is a continuous loop that runs in the background of the program, constantly checking for new events to process. The loop itself is implemented as a while loop that runs indefinitely until the program is terminated.</h5>
+                <h5 class="text-xl font-semibold mt-6 text-gray-500"><span class="font-bold text-gray-800">#Event loop:</span> The event loop is a mechanism that allows asynchronous and non-blocking code execution. It is the core concept that makes JavaScript a highly performant language for building web applications. It is a continuous loop that runs in the background of the program, constantly checking for new events to process. The loop itself is implemented as a while loop that runs indefinitely until the program is terminated.</h5>
             </div>
         </div>
+
+
+        <!-- quizTimer function Ques -->
+        <div>
+          <h1 class="text-3xl font-bold text-gray-900">4. What does the quizTimer function do?</h1>
+          <div>
+              <h5 class="text-xl font-semibold mt-6 text-gray-500"><span class="font-bold text-gray-800">#quizTimer function:</span> The quizTimer function handles the countdown timer for the quiz. It takes a single argument called dismiss which is a boolean value that determines whether to stop the timer or not. If dismiss is true, it clears the interval using clearInterval(timer) and stops the timer. Otherwise, it sets up a new interval that executes a callback function every second.</h5>
+          </div>
+      </div>
+
     </section>
 
 
